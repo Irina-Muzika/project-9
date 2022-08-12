@@ -6,25 +6,26 @@ body{
    
 }
 .background-two{
-    background-image: url(../img/imag.png);
-   
+    background-image: url(../img/imag-small.png);
     background-repeat: no-repeat;
-   
+    @media screen and (min-width: 768px) {
+        background-image: url(../img/imag.png);
+
+    }
 }
 .bg-menu{
     display: flex;
   justify-content: space-between;
 align-items: center;
+padding: 43px 16px 0 19px;
 
 
 }
 .category{
     text-decoration: none;
     color: white;
-   
- 
+
     @media screen and(min-width:768px) {
-     
         padding-left: 63px;
         font-family: 'Montserrat';
         font-style: normal;
@@ -38,20 +39,19 @@ align-items: center;
 .header-category{
     display: flex;
    text-align: center;
-    margin-top: 73px;
-    margin-right: 103px;
+  
     display: none;
     @media screen and(min-width:768px){
         display: block;
     }
     
-   
 }
 
 .burger-logo{
+    display: block;
+
+    @media screen and(min-width:768px) {
     display: none;
-    @media screen and(max-width:768px) {
-        display: block;
        
     }
 }
@@ -60,116 +60,60 @@ align-items: center;
 
 }
 .header-logo{
-    margin: 43px 0 0 19px;
+   
     @media screen and(min-width:768px){
         width: 197px;
 height: 83.8px;
     }
 }
-.logo{
-    @media screen and(min-width:768px){
-        width: 197px;
-        height: 83.8px;
-    }
-}
-.bg-black{
-    width: 326px;
-height: 280px;
-margin-left: auto;
-margin-top: 130px;
-background: #1E0C06;
-box-shadow: 0px 4px 52px rgba(245, 245, 245, 0.17);
-border-radius: 14px 0px 0px 14px;
-@media screen and(min-width:768px){
-    width: 1245px;
-height: 714px;
 
+.about-us{
+  margin-top: 86px;
 }
-
-
-}
-.about-products{
-    @media screen and(min-width:768px){
-        display: flex;
-        
-        width: 1245px;
-height: 714px;
-           
-    }
-  
-}
-.products{
+.prodact{
    
-    width: 289px;
-    height: 140px;
-    @media screen and(min-width:768px){
-        width: 622px;
-  height: 357px;
-    }
-   
-
 }
-.products-h{
-    font-family: 'Inter';
+.prodact-h{
+    font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 104px;
+text-transform: uppercase;
+color: #F5F5F5;
+margin-bottom: 24px;
+@media screen and(max-width:768px){
+    font-family: 'KyivType Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
 line-height: 107.9%;
 text-transform: uppercase;
 color: #F5F5F5;
-width: 289px;
-height: 64px;
-padding: 39px 0 0 16px;
-@media screen and(min-width:768px){
+}
+}
+.prodact-p{
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 90px;
-    line-height: 115.4%;
-    text-transform: uppercase;
-    color: #F5F5F5;
-    width: 622px;
-height: 321px;
-padding: 75px 0 0 50px;
-}
-}
-.products-p{
-    width: 165px;
-height: 36px;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+color: #FFDBBB;
+margin-bottom: 60px;
+@media screen and(max-width:768px){
     font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
 line-height: 18px;
 color: #FFDBBB;
-padding: 20px 20px;
-@media screen and(min-width:768px){
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 39px;
-    color: #FFDBBB;
-    width: 333px;
-height: 78px;
-padding: 22px 0 0 62px;
 }
 }
-.products-button{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px; 
-    color: #F5F5F5;
-   background-color: #728BAD;
-    border-radius: 100px;
-width: 86px;
-height: 21px;
-margin: 40px;
-@media screen and(min-width:768px){
-    width: 225px;
-height: 58px;
+.prodact-button{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 70px;
 background: #728BAD;
 border-radius: 42px;
 font-family: 'Inter';
@@ -180,72 +124,197 @@ line-height: 36px;
 color: #F5F5F5;
 width: 225px;
 height: 58px;
-margin: 58px 0 0 50px;
+outline: 0;
+@media screen and(max-width:768px){
+    display: flex;
+flex-direction: row;
+padding: 15px 17px;
+background: #728BAD;
+border-radius: 42px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color: #F5F5F5;
+width: 86px;
+height: 21px;
+outline: 0;
 }
-
-
-
-
 }
-.foto-products{
-    @media screen and(min-width:768px){
-
-   display: flex;
-   flex-direction: column;
-  width: 622px;
-  height: 357px;}
-
-}
-.stairs{
-margin-left: 225px;
-width: 90px;
-    height: 90px;
-    @media screen and(min-width:768px){
-        width: 205px;
-        height: 205px;
-       margin-left: 170px;
+.line{
+    border-left: 1px solid #F5F5F5;
+    @media screen and(max-width:768px){
+        border-bottom: 1px solid #F5F5F5;
     }
+}
+.d-flex{
+display: flex;
+align-items: center;
+gap: 44px;
+align-items: stretch;
+padding: 50px;
+max-width: 1245px;
+margin-left: auto;
+background-color: #1E0C06;
+border-radius: 43px 0px 0px 43px;
 
+@media screen and(max-width:768px){
+    display: flex;
+    flex-direction: column;
 }
 
-.table{
-    margin-left: 36px;
-    margin-top: 20px;
-    width: 90px;
-    height: 90px;
-    @media screen and(min-width:768px){
-        width: 205px;
-        height: 205px;
-      
-     
+}
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+ min-width: 450px;
+    img{
+        width: 100%;
+        max-width: 205px;
+        max-height: 205px;
+       border-radius: 42px;
+       @media screen and(max-width:768px){
+        width: 100%;
+        max-width: 90px;
+        max-height: 90px;
+       border-radius: 14px;
+       }
     }
-  
-
-
-}
-.pucture{
-    margin-left: 200px;
-    width: 90px;
-    height: 90px;
-    @media screen and(min-width:768px){
-        width: 205px;
-        height: 205px;
-       
+    @media screen and(max-width:768px){
+        position: absolute;
         
     }
+}
+.df-40{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+.table{
+   margin-top: 50px;
+   @media screen and(max-width:768px){
+    margin-left: 50px;
+    margin-bottom: 180px;
+    
+   }
+   
+}
+.style{
+    margin-left: auto;
+    margin-bottom: 30px;
+    @media screen and(max-width:768px){
+        margin-right: 200px;
+        margin-top: 130px;
+    }
+}
+.stars{
+   margin-bottom: 250px;
+}
+.container{
+    max-width: 1245px;
+    width: 100%;
+ 
+}
+.wood{
+    margin-top: 209px;
+}
+.wood-h{
+    font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 133%;
+color: #F5F5F5;
+margin-left: 19px;
+margin-bottom: 90px;
 
+@media screen and(min-width:768px){
+
+font-family: 'KyivType Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 90px;
+line-height: 133%;
+text-transform: uppercase;
+color: #F5F5F5;
+margin-left: 243px;
+}
+}
+.wood-img{
+    width: 90px;
+height: 90px;
+border-radius: 14px;
+
+@media screen and(min-width:768px){
+width: 205px;
+height: 205px;
+border-radius: 42px;
 
 }
-.border{
-    height: 110px;
-padding-top: 11px;
-    padding-bottom: 14px;
-    border-bottom: 1px solid  #F5F5F5;
+}
+.wood-h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #F5F5F5;
+margin: 16px 0 20px 101px ;
 
+}
+.wood-li{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #F5F5F5;
+margin-left: 73px;
+margin-bottom: 8px;
+list-style-type: none;
+
+}
+
+
+.wood-li::before{
+    content:"✔" ;
+    color: #FFC099;
+    margin-right: 10px;
+   
+}
+.wood-li:last-child{
+    content:"✗";
+  
+}
+.flex{
+    display: flex;
+    overflow: scroll;
+}
+.mr-56{
+    margin-left: 77px;
+}
+.mt-20px{
+    margin-top: 40px;
+    margin-right: 34px;
     @media screen and(min-width:768px){
-        border-left: 1px solid red;
-        height: 0;
-
-       
+        margin-top: 0;
     }
+}
+.mr-34{
+    margin-right: 34px;
+    margin-left: 56px;
+    @media screen and(min-width:768px){
+        margin-left: 240px;
+        margin-right: 220px;
+    }
+}
+.ml-132{
+    @media screen and(min-width:768px){
+    margin-left: 132px;}
+}
+.ml-76{
+    margin-left: 76px;
 }
