@@ -989,6 +989,11 @@ body {
   box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
   margin-top: 93px;
 }
+@media screen and (min-width: 768px) {
+  .footer-bg {
+    height: 301px;
+  }
+}
 
 .contact {
   display: flex;
@@ -1026,6 +1031,7 @@ body {
 @media screen and (min-width: 768px) {
   .footer-contact {
     margin-left: 107px;
+    padding-bottom: 30px;
   }
 }
 
@@ -1078,6 +1084,7 @@ body {
     line-height: 140%;
     color: #F5F5F5;
     margin-left: 140px;
+    margin-top: 28px;
   }
 }
 
