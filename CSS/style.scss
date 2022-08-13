@@ -49,13 +49,14 @@ padding: 43px 16px 0 19px;
     display: none;
     @media screen and(min-width:768px){
         display: block;
+        margin-right: 102px;
     }
     
 }
 
 .burger-logo{
     display: block;
-
+margin-right: 19px;
     @media screen and(min-width:768px) {
     display: none;
        
@@ -66,10 +67,11 @@ padding: 43px 16px 0 19px;
 
 }
 .header-logo{
-   
+   margin-left: 19px;
     @media screen and(min-width:768px){
         width: 197px;
 height: 83.8px;
+margin-left: 102px;
     }
 }
 
@@ -892,6 +894,8 @@ margin-top: -250px;
 }
 }
 .footer-bg{
+    max-width: 1440px;
+    width: 100%;
     background: #222021;
 box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
 margin-top: 93px;
