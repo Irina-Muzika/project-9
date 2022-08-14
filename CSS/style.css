@@ -162,6 +162,7 @@ body {
 
 .line {
   border-left: 1px solid #F5F5F5;
+  padding-left: 180px;
 }
 @media screen and (max-width: 768px) {
   .line {
@@ -176,9 +177,10 @@ body {
   align-items: stretch;
   padding: 50px;
   max-width: 1245px;
-  margin-left: auto;
+  margin-left: 26px;
   background-color: #1E0C06;
   border-radius: 43px 0px 0px 43px;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .d-flex {
@@ -193,14 +195,12 @@ body {
   max-width: 300px;
 }
 .pictures img {
-  width: 100%;
-  max-width: 130px;
-  max-height: 130px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 42px;
 }
 @media screen and (max-width: 768px) {
   .pictures img {
-    width: 100%;
     max-width: 90px;
     max-height: 90px;
     border-radius: 14px;
@@ -224,8 +224,9 @@ body {
 }
 @media screen and (max-width: 768px) {
   .table {
-    margin-left: 20px;
+    margin-left: -20px;
     margin-bottom: 130px;
+    margin-left: 40px;
   }
 }
 
@@ -241,12 +242,23 @@ body {
 }
 
 .pict {
-  margin-left: 200px;
   margin-top: 60px;
+}
+@media screen and (max-width: 768px) {
+  .pict {
+    margin-left: 200px;
+    margin-top: 60px;
+  }
 }
 
 .stars {
   margin-bottom: 230px;
+  margin-left: -180px;
+}
+@media screen and (max-width: 768px) {
+  .stars {
+    margin-left: 10px;
+  }
 }
 
 .container {
@@ -278,7 +290,7 @@ body {
     line-height: 133%;
     text-transform: uppercase;
     color: #F5F5F5;
-    margin-left: 243px;
+    margin-left: 50px;
     margin-bottom: 125px;
   }
 }
@@ -308,7 +320,7 @@ body {
 @media screen and (min-width: 768px) {
   .wood-1 {
     width: 277px;
-    margin: 125px 174px 0 120px;
+    margin: 125px 174px 0 0;
   }
 }
 
@@ -660,6 +672,7 @@ body {
   .advantage-img {
     max-width: 609px;
     height: 386px;
+    border-radius: 50px;
   }
 }
 
@@ -789,6 +802,7 @@ body {
     max-width: 205px;
     height: 205px;
     margin-top: -120px;
+    border-radius: 25px;
   }
 }
 
@@ -804,6 +818,7 @@ body {
     max-width: 337px;
     height: 337px;
     margin-top: 20px;
+    border-radius: 50px;
   }
 }
 
@@ -820,6 +835,7 @@ body {
     max-width: 205px;
     height: 205px;
     margin-top: 380px;
+    border-radius: 25px;
   }
 }
 
@@ -987,6 +1003,7 @@ body {
     transform: rotate(349deg);
     margin-left: 840px;
     margin-top: -250px;
+    z-index: -2;
   }
 }
 

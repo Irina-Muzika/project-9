@@ -151,8 +151,10 @@ border: 0;
 }
 .line{
     border-left: 1px solid #F5F5F5;
+    padding-left: 180px;
     @media screen and(max-width:768px){
         border-bottom: 1px solid #F5F5F5;
+    
     }
 }
 .d-flex{
@@ -162,13 +164,16 @@ gap: 44px;
 align-items: stretch;
 padding: 50px;
 max-width: 1245px;
-margin-left: auto;
+margin-left: 26px;
 background-color: #1E0C06;
 border-radius: 43px 0px 0px 43px;
-
+width: 100%;
 @media screen and(max-width:768px){
     display: flex;
     flex-direction: column;
+  
+  
+   
 }
 
 }
@@ -178,12 +183,11 @@ border-radius: 43px 0px 0px 43px;
    max-width: 300px;
 
     img{
-        width: 100%;
-        max-width: 130px;
-        max-height: 130px;
+       
+        max-width: 250px;
+        max-height: 250px;
        border-radius: 42px;
        @media screen and(max-width:768px){
-        width: 100%;
         max-width: 90px;
         max-height: 90px;
        border-radius: 14px;
@@ -203,8 +207,9 @@ border-radius: 43px 0px 0px 43px;
 .table{
    margin-top: 50px;
    @media screen and(max-width:768px){
-    margin-left: 20px;
+    margin-left: -20px;
     margin-bottom: 130px;
+    margin-left: 40px;
    }
    
 }
@@ -218,11 +223,20 @@ border-radius: 43px 0px 0px 43px;
     }
 }
 .pict{
-    margin-left: 200px;
+   
     margin-top: 60px;
+    @media screen and(max-width:768px){
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    
 }
 .stars{
    margin-bottom: 230px;
+   margin-left: -180px;
+   @media screen and(max-width:768px){
+    margin-left: 10px;
+   }
 }
 
 
@@ -230,6 +244,7 @@ border-radius: 43px 0px 0px 43px;
     max-width: 1245px;
     min-width: 325px;
     margin-left: auto;
+  
  
 }
 .wood{
@@ -252,7 +267,7 @@ border-radius: 43px 0px 0px 43px;
         line-height: 133%;
         text-transform: uppercase;
         color: #F5F5F5; 
-        margin-left: 243px;  
+    margin-left: 50px;
         margin-bottom: 125px;
     }
 }
@@ -278,7 +293,7 @@ border-radius: 43px 0px 0px 43px;
     align-items: center;
     @media screen and(min-width:768px){
         width: 277px;
-        margin: 125px 174px 0 120px;
+        margin: 125px 174px 0 0;
     }
 }
 .wood-2{
@@ -597,6 +612,7 @@ max-width: 350px;
 @media screen and(min-width:768px){
 max-width: 609px;
 height: 386px;
+border-radius: 50px;
 
 }
 
@@ -718,6 +734,7 @@ margin-left: 165px;
        max-width: 205px;
         height: 205px;
         margin-top: -120px;
+        border-radius: 25px;
     }
 }
 .about-img2{
@@ -730,6 +747,7 @@ margin-top: 75px;
   max-width: 337px;
 height: 337px;
 margin-top: 20px;
+border-radius: 50px;
 }
 }
 .about-img3{
@@ -743,6 +761,7 @@ margin-top: 20px;
      max-width: 205px;
 height: 205px;
 margin-top: 380px;
+border-radius: 25px;
     }
 }
 .input-flex{
@@ -891,10 +910,11 @@ height: 483px;
 transform: rotate(349deg);
 margin-left: 840px;
 margin-top: -250px;
+z-index: -2;
 }
 }
 .footer-bg{
-    max-width: 1440px;
+  max-width: 1440px;
     width: 100%;
     background: #222021;
 box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
