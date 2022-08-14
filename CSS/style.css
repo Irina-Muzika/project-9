@@ -1009,7 +1009,7 @@ body {
 }
 
 .footer-bg {
-  max-width: 1440px;
+  width: 1240px;
   width: 100%;
   background: #222021;
   box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
