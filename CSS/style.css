@@ -304,6 +304,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .flex {
+    margin-left: -250px;
     margin-top: 90px;
   }
 }
