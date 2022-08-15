@@ -77,6 +77,14 @@ margin-left: 102px;
 
 .about-us{
   margin-top: 86px;
+  .container{
+    padding: 50px;
+max-width: 1245px;
+
+background-color: #1E0C06;
+border-radius: 43px 0px 0px 43px;
+width: 100%;
+  }
 }
 
 .prodact-h{
@@ -162,12 +170,12 @@ display: flex;
 align-items: center;
 gap: 44px;
 align-items: stretch;
-padding: 50px;
-max-width: 1245px;
-margin-left: 26px;
-background-color: #1E0C06;
-border-radius: 43px 0px 0px 43px;
-width: 100%;
+// padding: 50px;
+// max-width: 1245px;
+// margin-left: 26px;
+// background-color: #1E0C06;
+// border-radius: 43px 0px 0px 43px;
+// width: 100%;
 @media screen and(max-width:768px){
     display: flex;
     flex-direction: column;

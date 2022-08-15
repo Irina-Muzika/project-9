@@ -83,6 +83,13 @@ body {
 .about-us {
   margin-top: 86px;
 }
+.about-us .container {
+  padding: 50px;
+  max-width: 1245px;
+  background-color: #1E0C06;
+  border-radius: 43px 0px 0px 43px;
+  width: 100%;
+}
 
 .prodact-h {
   font-family: "Kyiv*Type Sans Medium";
@@ -175,12 +182,6 @@ body {
   align-items: center;
   gap: 44px;
   align-items: stretch;
-  padding: 50px;
-  max-width: 1245px;
-  margin-left: 26px;
-  background-color: #1E0C06;
-  border-radius: 43px 0px 0px 43px;
-  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .d-flex {
